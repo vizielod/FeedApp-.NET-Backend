@@ -1,0 +1,12 @@
+E:\Egyetem\III. ev\II. felev\Szoftverfejlesztés .NET platformra\FitApp\FitAppUWP\obj\x86\Debug\App.g.i.cs
+E:\Egyetem\III. ev\II. felev\Szoftverfejlesztés .NET platformra\FitApp\FitAppUWP\obj\x86\Debug\App.g.cs
+E:\Egyetem\III. ev\II. felev\Szoftverfejlesztés .NET platformra\FitApp\FitAppUWP\obj\x86\Debug\MainPage.g.i.cs
+E:\Egyetem\III. ev\II. felev\Szoftverfejlesztés .NET platformra\FitApp\FitAppUWP\obj\x86\Debug\MainPage.g.cs
+E:\Egyetem\III. ev\II. felev\Szoftverfejlesztés .NET platformra\FitApp\FitAppUWP\obj\x86\Debug\App.xaml
+E:\Egyetem\III. ev\II. felev\Szoftverfejlesztés .NET platformra\FitApp\FitAppUWP\obj\x86\Debug\MainPage.xaml
+E:\Egyetem\III. ev\II. felev\Szoftverfejlesztés .NET platformra\FitApp\FitAppUWP\obj\x86\Debug\Resources\ColorResources.xaml
+E:\Egyetem\III. ev\II. felev\Szoftverfejlesztés .NET platformra\FitApp\FitAppUWP\obj\x86\Debug\Resources\TextStyle.xaml
+E:\Egyetem\III. ev\II. felev\Szoftverfejlesztés .NET platformra\FitApp\FitAppUWP\obj\x86\Debug\App.xbf
+E:\Egyetem\III. ev\II. felev\Szoftverfejlesztés .NET platformra\FitApp\FitAppUWP\obj\x86\Debug\MainPage.xbf
+E:\Egyetem\III. ev\II. felev\Szoftverfejlesztés .NET platformra\FitApp\FitAppUWP\obj\x86\Debug\Resources\ColorResources.xbf
+E:\Egyetem\III. ev\II. felev\Szoftverfejlesztés .NET platformra\FitApp\FitAppUWP\obj\x86\Debug\Resources\TextStyle.xbf

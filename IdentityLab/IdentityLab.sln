@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2024
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IdentityLab", "IdentityLab\IdentityLab.csproj", "{A433BECB-8B96-4E3B-809F-63005FB50C29}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Identityclient", "Identityclient\Identityclient.csproj", "{22144C29-1647-49AA-B8FE-53B16AB57503}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A433BECB-8B96-4E3B-809F-63005FB50C29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A433BECB-8B96-4E3B-809F-63005FB50C29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A433BECB-8B96-4E3B-809F-63005FB50C29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A433BECB-8B96-4E3B-809F-63005FB50C29}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22144C29-1647-49AA-B8FE-53B16AB57503}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22144C29-1647-49AA-B8FE-53B16AB57503}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22144C29-1647-49AA-B8FE-53B16AB57503}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22144C29-1647-49AA-B8FE-53B16AB57503}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A613F643-63FC-48C0-891E-EFB12DE06804}
+	EndGlobalSection
+EndGlobal

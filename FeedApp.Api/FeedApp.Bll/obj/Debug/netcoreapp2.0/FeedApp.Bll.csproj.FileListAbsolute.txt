@@ -1,0 +1,11 @@
+E:\Egyetem\III. ev\II. felev\Szoftverfejlesztés .NET platformra\FeedApp.Api\FeedApp.Bll\bin\Debug\netcoreapp2.0\FeedApp.Bll.deps.json
+E:\Egyetem\III. ev\II. felev\Szoftverfejlesztés .NET platformra\FeedApp.Api\FeedApp.Bll\bin\Debug\netcoreapp2.0\FeedApp.Bll.dll
+E:\Egyetem\III. ev\II. felev\Szoftverfejlesztés .NET platformra\FeedApp.Api\FeedApp.Bll\obj\Debug\netcoreapp2.0\FeedApp.Bll.csproj.CoreCompileInputs.cache
+E:\Egyetem\III. ev\II. felev\Szoftverfejlesztés .NET platformra\FeedApp.Api\FeedApp.Bll\obj\Debug\netcoreapp2.0\FeedApp.Bll.AssemblyInfoInputs.cache
+E:\Egyetem\III. ev\II. felev\Szoftverfejlesztés .NET platformra\FeedApp.Api\FeedApp.Bll\obj\Debug\netcoreapp2.0\FeedApp.Bll.AssemblyInfo.cs
+E:\Egyetem\III. ev\II. felev\Szoftverfejlesztés .NET platformra\FeedApp.Api\FeedApp.Bll\obj\Debug\netcoreapp2.0\FeedApp.Bll.csprojResolveAssemblyReference.cache
+E:\Egyetem\III. ev\II. felev\Szoftverfejlesztés .NET platformra\FeedApp.Api\FeedApp.Bll\bin\Debug\netcoreapp2.0\FeedApp.Bll.pdb
+E:\Egyetem\III. ev\II. felev\Szoftverfejlesztés .NET platformra\FeedApp.Api\FeedApp.Bll\obj\Debug\netcoreapp2.0\FeedApp.Bll.dll
+E:\Egyetem\III. ev\II. felev\Szoftverfejlesztés .NET platformra\FeedApp.Api\FeedApp.Bll\obj\Debug\netcoreapp2.0\FeedApp.Bll.pdb
+E:\Egyetem\III. ev\II. felev\Szoftverfejlesztés .NET platformra\FeedApp.Api\FeedApp.Bll\bin\Debug\netcoreapp2.0\FeedApp.DLL.dll
+E:\Egyetem\III. ev\II. felev\Szoftverfejlesztés .NET platformra\FeedApp.Api\FeedApp.Bll\bin\Debug\netcoreapp2.0\FeedApp.DLL.pdb

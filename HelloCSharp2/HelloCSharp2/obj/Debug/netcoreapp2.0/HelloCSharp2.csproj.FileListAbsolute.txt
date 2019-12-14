@@ -1,0 +1,11 @@
+E:\Egyetem\III. ev\II. felev\Szoftverfejlesztés .NET platformra\HelloCSharp2\HelloCSharp2\bin\Debug\netcoreapp2.0\HelloCSharp2.deps.json
+E:\Egyetem\III. ev\II. felev\Szoftverfejlesztés .NET platformra\HelloCSharp2\HelloCSharp2\bin\Debug\netcoreapp2.0\HelloCSharp2.runtimeconfig.json
+E:\Egyetem\III. ev\II. felev\Szoftverfejlesztés .NET platformra\HelloCSharp2\HelloCSharp2\bin\Debug\netcoreapp2.0\HelloCSharp2.runtimeconfig.dev.json
+E:\Egyetem\III. ev\II. felev\Szoftverfejlesztés .NET platformra\HelloCSharp2\HelloCSharp2\bin\Debug\netcoreapp2.0\HelloCSharp2.dll
+E:\Egyetem\III. ev\II. felev\Szoftverfejlesztés .NET platformra\HelloCSharp2\HelloCSharp2\bin\Debug\netcoreapp2.0\HelloCSharp2.pdb
+E:\Egyetem\III. ev\II. felev\Szoftverfejlesztés .NET platformra\HelloCSharp2\HelloCSharp2\obj\Debug\netcoreapp2.0\HelloCSharp2.csprojResolveAssemblyReference.cache
+E:\Egyetem\III. ev\II. felev\Szoftverfejlesztés .NET platformra\HelloCSharp2\HelloCSharp2\obj\Debug\netcoreapp2.0\HelloCSharp2.csproj.CoreCompileInputs.cache
+E:\Egyetem\III. ev\II. felev\Szoftverfejlesztés .NET platformra\HelloCSharp2\HelloCSharp2\obj\Debug\netcoreapp2.0\HelloCSharp2.AssemblyInfoInputs.cache
+E:\Egyetem\III. ev\II. felev\Szoftverfejlesztés .NET platformra\HelloCSharp2\HelloCSharp2\obj\Debug\netcoreapp2.0\HelloCSharp2.AssemblyInfo.cs
+E:\Egyetem\III. ev\II. felev\Szoftverfejlesztés .NET platformra\HelloCSharp2\HelloCSharp2\obj\Debug\netcoreapp2.0\HelloCSharp2.dll
+E:\Egyetem\III. ev\II. felev\Szoftverfejlesztés .NET platformra\HelloCSharp2\HelloCSharp2\obj\Debug\netcoreapp2.0\HelloCSharp2.pdb

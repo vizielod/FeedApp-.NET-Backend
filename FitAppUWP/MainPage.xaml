@@ -1,0 +1,49 @@
+﻿<Page
+    x:Class="FitAppUWP.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:FitAppUWP"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    xmlns:model ="using:FitAppUWP.Model"
+    xmlns:converters="using:FitAppUWP.Converters">
+
+    <Page.Resources>
+        <converters:AgeToEnabledConverter x:Key="AgeToEnabledConverter"/>
+    </Page.Resources>
+
+    <Grid HorizontalAlignment="Left"
+        VerticalAlignment="Top"
+        Margin="20,20,0,0"
+        Width="250">
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto" />
+            <ColumnDefinition Width="Auto" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="Auto" />
+        </Grid.ColumnDefinitions>
+        <TextBlock Grid.Row="0" Grid.Column="0" Text="Name"
+                    Style="{StaticResource MyTextBlockStyle}" />
+        <TextBox Text ="{Binding Name, Mode=TwoWay}" Grid.Row="0" Grid.Column="1" Grid.ColumnSpan="3" x:Name="tbName"
+                    Margin="0,0,0,5" Background="{ThemeResource FormTextBoxBackgroundBrush}" FontFamily="Segoe UI"/>
+        <TextBlock Grid.Row="1" Grid.Column="0" Text="Age"
+                    Style="{StaticResource MyTextBlockStyle}" FontFamily="Segoe UI" />
+        <TextBox Text ="{Binding Age, Mode=TwoWay}" Grid.Row="1" Grid.Column="2" x:Name="tbAge" Background="{ThemeResource FormTextBoxBackgroundBrush}"/>
+
+        <Button Grid.Row="1" Grid.Column="1" Content="-" Margin="0,0,5,0" x:Name="DecreaseButton" Click="DecreaseButton_Click"
+                IsEnabled="{Binding Age, Converter={StaticResource AgeToEnabledConverter}}"/>
+        <Button Grid.Row="1" Grid.Column="3" Content="+" Margin="5,0,0,0" Click="IncreaseButton_Click" x:Name="IncreaseButton"/>
+        <Grid Grid.ColumnSpan="4" HorizontalAlignment="Left" Height="69" Margin="979,220,-1079,-289" Grid.RowSpan="2" VerticalAlignment="Top" Width="100"/>
+
+        <ListView HorizontalAlignment="Left" Height="458" Margin="20,112,0,0" VerticalAlignment="Top" Width="300" ItemResource="{x:Bind People}" />
+
+    </Grid>
+
+
+</Page>

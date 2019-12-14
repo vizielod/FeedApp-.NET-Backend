@@ -1,0 +1,33 @@
+using System;
+using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
+using System.Text;
+
+namespace FeedApp.Bll.Entities
+{
+
+    public class DailyConsumption
+    {
+        public int ID { get; set; }
+
+        [DataType(DataType.Date)]
+        [DisplayFormat(DataFormatString = "{0:yyyy-MM-dd}", ApplyFormatInEditMode = true)]
+        public DateTime DateTime { get; set; }
+
+        public int UserId { get; set; }
+        public User User { get; set; }
+
+        public ICollection<Eating> Eatings { get; } = new List<Eating>();
+    }
+}
+
+
+UserInfo:
+{
+	"ApplicationUserID" : 3
+	"Age" : 27,
+	"Gender" : Gender.Female,
+	"Height" : 157.0,
+	"ExerciseLevel" : ExerciseLevel.VeryActive
+}

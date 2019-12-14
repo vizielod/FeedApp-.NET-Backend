@@ -1,0 +1,9 @@
+E:\Egyetem\III. ev\II. felev\Szoftverfejlesztés .NET platformra\WebApiLabor\WebApiLabor.Bll\bin\Debug\netstandard2.0\WebApiLabor.Bll.deps.json
+E:\Egyetem\III. ev\II. felev\Szoftverfejlesztés .NET platformra\WebApiLabor\WebApiLabor.Bll\bin\Debug\netstandard2.0\WebApiLabor.Bll.dll
+E:\Egyetem\III. ev\II. felev\Szoftverfejlesztés .NET platformra\WebApiLabor\WebApiLabor.Bll\bin\Debug\netstandard2.0\WebApiLabor.Bll.pdb
+E:\Egyetem\III. ev\II. felev\Szoftverfejlesztés .NET platformra\WebApiLabor\WebApiLabor.Bll\obj\Debug\netstandard2.0\WebApiLabor.Bll.csprojResolveAssemblyReference.cache
+E:\Egyetem\III. ev\II. felev\Szoftverfejlesztés .NET platformra\WebApiLabor\WebApiLabor.Bll\obj\Debug\netstandard2.0\WebApiLabor.Bll.csproj.CoreCompileInputs.cache
+E:\Egyetem\III. ev\II. felev\Szoftverfejlesztés .NET platformra\WebApiLabor\WebApiLabor.Bll\obj\Debug\netstandard2.0\WebApiLabor.Bll.AssemblyInfoInputs.cache
+E:\Egyetem\III. ev\II. felev\Szoftverfejlesztés .NET platformra\WebApiLabor\WebApiLabor.Bll\obj\Debug\netstandard2.0\WebApiLabor.Bll.AssemblyInfo.cs
+E:\Egyetem\III. ev\II. felev\Szoftverfejlesztés .NET platformra\WebApiLabor\WebApiLabor.Bll\obj\Debug\netstandard2.0\WebApiLabor.Bll.dll
+E:\Egyetem\III. ev\II. felev\Szoftverfejlesztés .NET platformra\WebApiLabor\WebApiLabor.Bll\obj\Debug\netstandard2.0\WebApiLabor.Bll.pdb

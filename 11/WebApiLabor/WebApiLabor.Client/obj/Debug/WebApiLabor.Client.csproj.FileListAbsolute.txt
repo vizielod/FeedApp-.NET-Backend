@@ -1,0 +1,10 @@
+E:\Egyetem\III. ev\II. felev\Szoftverfejlesztés .NET platformra\11\WebApiLabor\WebApiLabor.Client\bin\Debug\WebApiLabor.Client.exe.config
+E:\Egyetem\III. ev\II. felev\Szoftverfejlesztés .NET platformra\11\WebApiLabor\WebApiLabor.Client\bin\Debug\WebApiLabor.Client.exe
+E:\Egyetem\III. ev\II. felev\Szoftverfejlesztés .NET platformra\11\WebApiLabor\WebApiLabor.Client\bin\Debug\WebApiLabor.Client.pdb
+E:\Egyetem\III. ev\II. felev\Szoftverfejlesztés .NET platformra\11\WebApiLabor\WebApiLabor.Client\bin\Debug\Microsoft.Rest.ClientRuntime.dll
+E:\Egyetem\III. ev\II. felev\Szoftverfejlesztés .NET platformra\11\WebApiLabor\WebApiLabor.Client\bin\Debug\Newtonsoft.Json.dll
+E:\Egyetem\III. ev\II. felev\Szoftverfejlesztés .NET platformra\11\WebApiLabor\WebApiLabor.Client\bin\Debug\Newtonsoft.Json.xml
+E:\Egyetem\III. ev\II. felev\Szoftverfejlesztés .NET platformra\11\WebApiLabor\WebApiLabor.Client\obj\Debug\WebApiLabor.Client.csprojResolveAssemblyReference.cache
+E:\Egyetem\III. ev\II. felev\Szoftverfejlesztés .NET platformra\11\WebApiLabor\WebApiLabor.Client\obj\Debug\WebApiLabor.Client.csproj.CoreCompileInputs.cache
+E:\Egyetem\III. ev\II. felev\Szoftverfejlesztés .NET platformra\11\WebApiLabor\WebApiLabor.Client\obj\Debug\WebApiLabor.Client.exe
+E:\Egyetem\III. ev\II. felev\Szoftverfejlesztés .NET platformra\11\WebApiLabor\WebApiLabor.Client\obj\Debug\WebApiLabor.Client.pdb

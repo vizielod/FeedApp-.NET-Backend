@@ -1,0 +1,64 @@
+﻿<Page
+    x:Class="FeedApp.UWP.UserInfoPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:FeedApp.UWP"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <TextBlock x:Name="FeedAppTextBlock" HorizontalAlignment="Left" Height="90" Margin="100,-5,-450,0" Text="FeedApp" TextWrapping="Wrap" VerticalAlignment="Top" Width="350" FontSize="72" Grid.ColumnSpan="2" FontFamily="Snap ITC"/>
+        <Image x:Name="LogoImage" HorizontalAlignment="Left" Height="85" VerticalAlignment="Top" Width="85" Source="Assets/Square44x44Logo.png"/>
+
+        <RichTextBlock x:Name="AppDescriptionTextBlock" Margin="710,45,70,90" TextWrapping="Wrap" Width="500" FontFamily="Segoe UI">
+            <Paragraph>App Description, maybe better put a photo made of a pdf text here</Paragraph>
+        </RichTextBlock>
+
+        <Grid Margin="50,45,0,35" HorizontalAlignment="Left" Width="600">
+
+            <TextBlock x:Name="SignUpTextBlock" Text="Parameters" TextWrapping="Wrap" FontSize="60" Margin="150,50,0,0" Height="79" VerticalAlignment="Top" HorizontalAlignment="Left" Width="342" RenderTransformOrigin="0.5,0.5" FontWeight="Bold">
+                <TextBlock.RenderTransform>
+                    <CompositeTransform SkewX="0" TranslateX="0"/>
+                </TextBlock.RenderTransform>
+            </TextBlock>
+            <Button x:Name="CalculateButton" HorizontalAlignment="Left" VerticalAlignment="Top" Content="Calculate" FontSize="36" Margin="160,535,0,0" Width="300" Height="75" Click="CalculateButton_Click"/>
+            <TextBox x:Name="FeetTextBox" Margin="250,310,0,0" Text="" TextWrapping="Wrap" FontSize="22" PlaceholderText="" HorizontalAlignment="Left" Width="90" Height="35" VerticalAlignment="Top"/>
+            <TextBox x:Name="UserNameTextBox" Margin="250,255,0,0" Text="" TextWrapping="Wrap" FontSize="22" PlaceholderText="" HorizontalAlignment="Left" Width="90" Height="35" VerticalAlignment="Top"/>
+            <TextBox x:Name="AgeTextBox" Margin="150,145,0,0" Text="" TextWrapping="Wrap" FontSize="22" PlaceholderText="" HorizontalAlignment="Left" Width="240" Height="35" VerticalAlignment="Top"/>
+            <TextBox x:Name="InchesTextBox" Margin="430,310,0,0" Text="" TextWrapping="Wrap" FontSize="22" PlaceholderText="" HorizontalAlignment="Left" Width="90" Height="35" VerticalAlignment="Top"/>
+            <TextBlock x:Name="AgeTextBlock" HorizontalAlignment="Left" Height="35" Margin="50,145,0,0" Text="Age" TextWrapping="Wrap" VerticalAlignment="Top" Width="50" FontSize="22" RenderTransformOrigin="0.5,0.571"/>
+            <TextBlock x:Name="YearsTextBlock" HorizontalAlignment="Left" Height="35" Margin="430,145,0,0" Text="Years" TextWrapping="Wrap" VerticalAlignment="Top" Width="105" FontSize="22"/>
+            <TextBlock x:Name="GenderTextBlock" HorizontalAlignment="Left" Height="35" Margin="50,200,0,0" Text="Gender" TextWrapping="Wrap" VerticalAlignment="Top" Width="105" FontSize="22"/>
+            <TextBlock HorizontalAlignment="Left" Height="35" Margin="50,255,0,0" Text="Current Weight" TextWrapping="Wrap" VerticalAlignment="Top" Width="215" FontSize="22"/>
+            <TextBlock x:Name="HeighTextBlock" HorizontalAlignment="Left" Height="35" Margin="50,310,0,0" Text="Height" TextWrapping="Wrap" VerticalAlignment="Top" Width="105" FontSize="22"/>
+            <TextBlock x:Name="InchesTextBlock" HorizontalAlignment="Left" Height="35" Margin="355,310,0,0" Text="Inches" TextWrapping="Wrap" VerticalAlignment="Top" Width="65" FontSize="22"/>
+            <TextBox x:Name="CMsTextBox" Margin="250,365,0,0" Text="" TextWrapping="Wrap" FontSize="22" PlaceholderText="" HorizontalAlignment="Left" Width="90" Height="35" VerticalAlignment="Top"/>
+            <ComboBox x:Name="ExerciseLevelComboBox" HorizontalAlignment="Left" Height="35" Margin="250,420,0,0" VerticalAlignment="Top" Width="300" IsDropDownOpen="False" PlaceholderText="Basal Metabolic Rate">
+                <ComboBoxItem Content="Basal Metabolic Rate" Height="35" Width="300"/>
+                <ComboBoxItem Content="Sedentary" Height="35" Width="300"/>
+                <ComboBoxItem Content="Lightly Active" Height="35" Width="300"/>
+                <ComboBoxItem Content="ModeratelyActive" Height="35" Width="300"/>
+                <ComboBoxItem Content="VeryActive" Height="35" Width="300"/>
+                <ComboBoxItem Content="ExtraActive" Height="35" Width="300"/>
+            </ComboBox>
+            <TextBlock x:Name="ExerciseLevelTextBlock" HorizontalAlignment="Left" Height="35" Margin="50,420,0,0" Text="Exercise level" TextWrapping="Wrap" VerticalAlignment="Top" Width="190" FontSize="22"/>
+            <TextBlock x:Name="CalculationFormulaTextBlock" HorizontalAlignment="Left" Height="35" Margin="50,475,0,0" Text="Calculation formula" TextWrapping="Wrap" VerticalAlignment="Top" Width="190" FontSize="22"/>
+            <ComboBox x:Name="CalculationFormulaComboBox" HorizontalAlignment="Left" Height="35" Margin="250,475,0,0" VerticalAlignment="Top" Width="300" IsDropDownOpen="True" PlaceholderText="Original Harris-Benedict Equation">
+                <ComboBoxItem Content="Original Harris-Benedict Equation" Height="35" Width="300"/>
+                <ComboBoxItem Content="Revised Harris-Benedict Equation" Height="35" Width="300"/>
+                <ComboBoxItem Content="Mifflin St Jeor Equation" Height="35" Width="300"/>
+                <ComboBoxItem Content="Katch-McArdle Formula" Height="35" Width="300"/>
+                <ComboBoxItem Content="Cunningham Formula" Height="35" Width="300"/>
+            </ComboBox>
+            <RadioButton x:Name="FemaleRB" Content="Female" HorizontalAlignment="Left" Height="35" Margin="150,200,0,0" VerticalAlignment="Top" Width="150" FontSize="22"/>
+            <RadioButton x:Name="MaleRB" Content="Male" HorizontalAlignment="Left" Height="35" Margin="280,200,0,0" VerticalAlignment="Top" Width="150" FontSize="22"/>
+            <RadioButton x:Name="PundsRB" Content="Pounds" HorizontalAlignment="Left" Height="35" Margin="365,255,0,0" VerticalAlignment="Top" Width="115" FontSize="22"/>
+            <RadioButton x:Name="KilosRB" Content="Kilos" HorizontalAlignment="Left" Height="35" Margin="490,255,0,0" VerticalAlignment="Top" Width="95" FontSize="22"/>
+            <RadioButton x:Name="FeetRB" Content="Feet" HorizontalAlignment="Left" Height="35" Margin="150,310,0,0" VerticalAlignment="Top" Width="90" FontSize="22"/>
+            <RadioButton x:Name="CMsRB" Content="CMs" HorizontalAlignment="Left" Height="35" Margin="150,365,0,0" VerticalAlignment="Top" Width="80" FontSize="22"/>
+        </Grid>
+
+
+    </Grid>
+</Page>

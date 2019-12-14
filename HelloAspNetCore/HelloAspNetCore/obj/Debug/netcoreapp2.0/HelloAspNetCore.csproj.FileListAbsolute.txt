@@ -1,0 +1,11 @@
+E:\Egyetem\III. ev\II. felev\Szoftverfejlesztés .NET platformra\HelloAspNetCore\HelloAspNetCore\bin\Debug\netcoreapp2.0\HelloAspNetCore.deps.json
+E:\Egyetem\III. ev\II. felev\Szoftverfejlesztés .NET platformra\HelloAspNetCore\HelloAspNetCore\bin\Debug\netcoreapp2.0\HelloAspNetCore.runtimeconfig.json
+E:\Egyetem\III. ev\II. felev\Szoftverfejlesztés .NET platformra\HelloAspNetCore\HelloAspNetCore\bin\Debug\netcoreapp2.0\HelloAspNetCore.runtimeconfig.dev.json
+E:\Egyetem\III. ev\II. felev\Szoftverfejlesztés .NET platformra\HelloAspNetCore\HelloAspNetCore\bin\Debug\netcoreapp2.0\HelloAspNetCore.dll
+E:\Egyetem\III. ev\II. felev\Szoftverfejlesztés .NET platformra\HelloAspNetCore\HelloAspNetCore\bin\Debug\netcoreapp2.0\HelloAspNetCore.pdb
+E:\Egyetem\III. ev\II. felev\Szoftverfejlesztés .NET platformra\HelloAspNetCore\HelloAspNetCore\obj\Debug\netcoreapp2.0\HelloAspNetCore.csprojResolveAssemblyReference.cache
+E:\Egyetem\III. ev\II. felev\Szoftverfejlesztés .NET platformra\HelloAspNetCore\HelloAspNetCore\obj\Debug\netcoreapp2.0\HelloAspNetCore.csproj.CoreCompileInputs.cache
+E:\Egyetem\III. ev\II. felev\Szoftverfejlesztés .NET platformra\HelloAspNetCore\HelloAspNetCore\obj\Debug\netcoreapp2.0\HelloAspNetCore.AssemblyInfoInputs.cache
+E:\Egyetem\III. ev\II. felev\Szoftverfejlesztés .NET platformra\HelloAspNetCore\HelloAspNetCore\obj\Debug\netcoreapp2.0\HelloAspNetCore.AssemblyInfo.cs
+E:\Egyetem\III. ev\II. felev\Szoftverfejlesztés .NET platformra\HelloAspNetCore\HelloAspNetCore\obj\Debug\netcoreapp2.0\HelloAspNetCore.dll
+E:\Egyetem\III. ev\II. felev\Szoftverfejlesztés .NET platformra\HelloAspNetCore\HelloAspNetCore\obj\Debug\netcoreapp2.0\HelloAspNetCore.pdb

@@ -1,0 +1,4 @@
+E:\Egyetem\III. ev\II. felev\Szoftverfejlesztés .NET platformra\FeedApp.Api\FeedApp.DLL\obj\Debug\netstandard1.6\FeedApp.DLL.csprojResolveAssemblyReference.cache
+E:\Egyetem\III. ev\II. felev\Szoftverfejlesztés .NET platformra\FeedApp.Api\FeedApp.DLL\obj\Debug\netstandard1.6\FeedApp.DLL.csproj.CoreCompileInputs.cache
+E:\Egyetem\III. ev\II. felev\Szoftverfejlesztés .NET platformra\FeedApp.Api\FeedApp.DLL\obj\Debug\netstandard1.6\FeedApp.DLL.AssemblyInfoInputs.cache
+E:\Egyetem\III. ev\II. felev\Szoftverfejlesztés .NET platformra\FeedApp.Api\FeedApp.DLL\obj\Debug\netstandard1.6\FeedApp.DLL.AssemblyInfo.cs

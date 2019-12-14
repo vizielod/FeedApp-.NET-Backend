@@ -1,0 +1,11 @@
+E:\Egyetem\III. ev\II. felev\Szoftverfejlesztés .NET platformra\FeedApp.Api\FeedApp.Client\obj\Debug\netcoreapp2.0\FeedApp.Client.csprojResolveAssemblyReference.cache
+E:\Egyetem\III. ev\II. felev\Szoftverfejlesztés .NET platformra\FeedApp.Api\FeedApp.Client\obj\Debug\netcoreapp2.0\FeedApp.Client.csproj.CoreCompileInputs.cache
+E:\Egyetem\III. ev\II. felev\Szoftverfejlesztés .NET platformra\FeedApp.Api\FeedApp.Client\obj\Debug\netcoreapp2.0\FeedApp.Client.AssemblyInfoInputs.cache
+E:\Egyetem\III. ev\II. felev\Szoftverfejlesztés .NET platformra\FeedApp.Api\FeedApp.Client\obj\Debug\netcoreapp2.0\FeedApp.Client.AssemblyInfo.cs
+E:\Egyetem\III. ev\II. felev\Szoftverfejlesztés .NET platformra\FeedApp.Api\FeedApp.Client\bin\Debug\netcoreapp2.0\FeedApp.Client.deps.json
+E:\Egyetem\III. ev\II. felev\Szoftverfejlesztés .NET platformra\FeedApp.Api\FeedApp.Client\bin\Debug\netcoreapp2.0\FeedApp.Client.runtimeconfig.json
+E:\Egyetem\III. ev\II. felev\Szoftverfejlesztés .NET platformra\FeedApp.Api\FeedApp.Client\bin\Debug\netcoreapp2.0\FeedApp.Client.runtimeconfig.dev.json
+E:\Egyetem\III. ev\II. felev\Szoftverfejlesztés .NET platformra\FeedApp.Api\FeedApp.Client\bin\Debug\netcoreapp2.0\FeedApp.Client.dll
+E:\Egyetem\III. ev\II. felev\Szoftverfejlesztés .NET platformra\FeedApp.Api\FeedApp.Client\bin\Debug\netcoreapp2.0\FeedApp.Client.pdb
+E:\Egyetem\III. ev\II. felev\Szoftverfejlesztés .NET platformra\FeedApp.Api\FeedApp.Client\obj\Debug\netcoreapp2.0\FeedApp.Client.dll
+E:\Egyetem\III. ev\II. felev\Szoftverfejlesztés .NET platformra\FeedApp.Api\FeedApp.Client\obj\Debug\netcoreapp2.0\FeedApp.Client.pdb

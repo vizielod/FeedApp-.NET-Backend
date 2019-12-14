@@ -1,0 +1,1 @@
+E:\Egyetem\III. ev\II. felev\Szoftverfejlesztés .NET platformra\Backup\FeedApp.Api\FeedApp.UWP\FeedApp.UWP.csproj;x86

@@ -1,0 +1,31 @@
+{
+	"FoodName" : "Broccoli",
+	"Calories" : 34.0,
+	"Fat" : 0.4,
+	"Carbohydrate" : 4.0,
+	"Sugar" : 1.7,
+	"Fiber" : 2.6,
+	"Protein" : 2.8,
+	"Salt" : 0.0825
+}
+
+context.Foods.Add(new Food() { FoodName = "Chicken Breast", Calories = 120, Fat = 2.6, Carbohydrate = 0, Sugar = 0, Fiber = 0, Protein = 22.5, Salt = 0.1125 });
+context.Foods.Add(new Food() { FoodName = "Basmati Rice", Calories = 360, Fat = 3.0, Carbohydrate = 80, Sugar = 0, Fiber = 8, Protein = 10, Salt = 0 });
+context.Foods.Add(new Food() { FoodName = "Oats", Calories = 389, Fat = 6.9, Carbohydrate = 55.6, Sugar = 0, Fiber = 10.6, Protein = 16.8, Salt = 0.005 });
+
+{
+	"UserName" : "vizielod",
+	"Email" : "foo@bar.com",
+	"Password" : "Admin123.",
+	"FirstName" : "developer",
+	"LastName" : "developer"
+}
+
+{
+	"UserName" : "dotnetGURU",
+	"Email" : "foobar@bar.com",
+	"Password" : "Admin123.",
+	"FirstName" : "dotnetGURU",
+	"LastName" : "dotnetGURU"
+	"Level":"Guru"
+}

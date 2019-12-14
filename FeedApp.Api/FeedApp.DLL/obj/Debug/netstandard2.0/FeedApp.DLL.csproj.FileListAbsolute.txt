@@ -1,0 +1,9 @@
+E:\Egyetem\III. ev\II. felev\Szoftverfejlesztés .NET platformra\FeedApp.Api\FeedApp.DLL\bin\Debug\netstandard2.0\FeedApp.DLL.deps.json
+E:\Egyetem\III. ev\II. felev\Szoftverfejlesztés .NET platformra\FeedApp.Api\FeedApp.DLL\bin\Debug\netstandard2.0\FeedApp.DLL.dll
+E:\Egyetem\III. ev\II. felev\Szoftverfejlesztés .NET platformra\FeedApp.Api\FeedApp.DLL\bin\Debug\netstandard2.0\FeedApp.DLL.pdb
+E:\Egyetem\III. ev\II. felev\Szoftverfejlesztés .NET platformra\FeedApp.Api\FeedApp.DLL\obj\Debug\netstandard2.0\FeedApp.DLL.csproj.CoreCompileInputs.cache
+E:\Egyetem\III. ev\II. felev\Szoftverfejlesztés .NET platformra\FeedApp.Api\FeedApp.DLL\obj\Debug\netstandard2.0\FeedApp.DLL.AssemblyInfoInputs.cache
+E:\Egyetem\III. ev\II. felev\Szoftverfejlesztés .NET platformra\FeedApp.Api\FeedApp.DLL\obj\Debug\netstandard2.0\FeedApp.DLL.AssemblyInfo.cs
+E:\Egyetem\III. ev\II. felev\Szoftverfejlesztés .NET platformra\FeedApp.Api\FeedApp.DLL\obj\Debug\netstandard2.0\FeedApp.DLL.dll
+E:\Egyetem\III. ev\II. felev\Szoftverfejlesztés .NET platformra\FeedApp.Api\FeedApp.DLL\obj\Debug\netstandard2.0\FeedApp.DLL.pdb
+E:\Egyetem\III. ev\II. felev\Szoftverfejlesztés .NET platformra\FeedApp.Api\FeedApp.DLL\obj\Debug\netstandard2.0\FeedApp.DLL.csprojResolveAssemblyReference.cache

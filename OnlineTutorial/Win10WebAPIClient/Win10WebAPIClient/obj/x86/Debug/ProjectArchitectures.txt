@@ -1,0 +1,1 @@
+E:\Egyetem\III. ev\II. felev\Szoftverfejlesztés .NET platformra\OnlineTutorial\Win10WebAPIClient\Win10WebAPIClient\Win10WebAPIClient.csproj;x86

@@ -1,0 +1,183 @@
+﻿<Page
+    x:Class="FeedApp.UWP.AppDietDiaryPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:Behaviors="using:Template10.Behaviors"
+    xmlns:Core="using:Microsoft.Xaml.Interactions.Core"
+    xmlns:Interactivity="using:Microsoft.Xaml.Interactivity"
+    xmlns:controls="using:Template10.Controls"
+    xmlns:local="using:FeedApp.UWP"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:viewModels="using:FeedApp.UWP.ViewModels"
+    mc:Ignorable="d">
+
+
+    <Page.Resources>
+        <CollectionViewSource x:Key="EatingsViewSource"
+                              IsSourceGrouped="True"
+                              Source="{Binding Eatings}"
+                              ItemsPath="Eating" />
+    </Page.Resources>
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+        <TextBlock x:Name="FeedAppTextBlock" HorizontalAlignment="Left" Height="60" Margin="60,-5,0,0" Text="FeedApp" TextWrapping="Wrap" VerticalAlignment="Top" Width="240" FontSize="48" FontFamily="Snap ITC"/>
+        <Image x:Name="LogoImage" HorizontalAlignment="Left" Height="50" VerticalAlignment="Top" Width="50" Source="Assets/Square44x44Logo.png"/>
+
+        <CommandBar Height="70" Margin="0,80,0,0" IsOpen="True" >
+            <CommandBar.Content>
+                <Grid HorizontalAlignment="Stretch" VerticalAlignment="Top">
+                    <AppBarButton x:Name="ParametersBarButton" Icon="World"  Label="Parameters" Width="100" Height="70" Click="ParametersBarButton_Click" />
+                    <AppBarButton x:Name="DietDiaryBarButton" Icon="Calendar" Label="Diet Diary" Margin="100,0,0,0" Width="100" Height="70" Click="DietDiaryBarButton_Click_1"/>
+                    <AppBarButton Icon="CalendarWeek" Label="Workout Diary" Margin="200,0,0,0" Width="100" Height="70"/>
+                    <AppBarButton Icon="FourBars" Label="Statistics" Margin="300,0,0,0" Width="100" Height="70"/>
+                    <AppBarButton Icon="Like" Label="Basic diet plans" Margin="400,0,0,0" Width="100" Height="70"/>
+                    <AppBarButton Icon="Edit" Label="Basic workout plans" Margin="500,0,0,0" Width="100" Height="70"/>
+                    <AppBarButton Icon="Pin" Label="Reciept" Margin="600,0,0,0" Width="100" Height="70"/>
+                    <AppBarButton Icon="Contact" Label="Online Coaching" Margin="700,0,0,0" Width="100" Height="70"/>
+                </Grid>
+            </CommandBar.Content>
+
+            <AppBarButton Icon="Accept" Label="AppBarButton" Height="70"/>
+            <AppBarButton Icon="Cancel" Label="AppBarButton" Height="70"/>
+        </CommandBar>
+
+        <Border x:Name="BreakfastBorder" BorderBrush="Black" BorderThickness="2" HorizontalAlignment="Left" Height="400" Margin="20,175,0,0" VerticalAlignment="Top" Width="295">
+            <Grid x:Name="BreakfastGrid" HorizontalAlignment="Left" Height="400" VerticalAlignment="Top" Width="295">
+                <Border BorderBrush="Black" BorderThickness="0,0,0,2" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="0,60,0,0" Width="295">
+
+                </Border>
+                <TextBlock Text="Breakfast" HorizontalAlignment="Left" VerticalAlignment="Top" Height="60" Width="295" TextAlignment="Center" FontSize="36" FontWeight="Bold" FontFamily="Elephant" Margin="0,5,0,0"/>
+                <Button Content="+" HorizontalAlignment="Left" Height="60" Margin="0,330,0,0" VerticalAlignment="Stretch" Width="295" FontSize="36"/>
+                <Grid HorizontalAlignment="Left" Height="280" Margin="0,60,0,0" VerticalAlignment="Top" Width="295">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto" />
+                        <ColumnDefinition Width="Auto" />
+                    </Grid.ColumnDefinitions>
+                    <ListView Grid.Row="0" Grid.Column="0" Height="280" Width="230">
+                        <ListViewItem Content="Food1"/>
+                        <ListViewItem Content="Food2"/>
+                        <ListViewItem Content="Food3"/>
+                    </ListView>
+                    <GridView Grid.Row="0" Grid.Column="1" Height="280" Width="65">
+                        <GridViewItem HorizontalAlignment="Center" VerticalAlignment="Center">
+                            <Button Width="50" VerticalAlignment="Center" HorizontalAlignment="Center" Height="20" Content="..." FontSize="16" Margin="5,0,0,0"></Button>
+                        </GridViewItem>
+                        <GridViewItem HorizontalAlignment="Center" VerticalAlignment="Center">
+                            <Button Width="50" VerticalAlignment="Center" HorizontalAlignment="Center" Height="20" Content="..." FontSize="16" Margin="5,0,0,0"></Button>
+                        </GridViewItem>
+                        <GridViewItem HorizontalAlignment="Center" VerticalAlignment="Center">
+                            <Button Width="50" VerticalAlignment="Center" HorizontalAlignment="Center" Height="20" Content="..." FontSize="16" Margin="5,0,0,0"></Button>
+                        </GridViewItem>
+                    </GridView>
+                </Grid>
+            </Grid>
+        </Border>
+
+        <Border x:Name="LunchBorder" BorderBrush="Black" BorderThickness="2" HorizontalAlignment="Left" Height="400" Margin="335,175,0,0" VerticalAlignment="Top" Width="295">
+            <Grid x:Name="LunchGrid" HorizontalAlignment="Left" Height="400" VerticalAlignment="Top" Width="295">
+                <Border BorderBrush="Black" BorderThickness="0,0,0,2" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="0,60,0,0" Width="295">
+
+                </Border>
+                <TextBlock Text="Lunch" HorizontalAlignment="Left" VerticalAlignment="Top" Height="60" Width="295" TextAlignment="Center" FontSize="36" FontWeight="Bold" FontFamily="Elephant" Margin="0,5,0,0"/>
+                <Button Content="+" HorizontalAlignment="Left" Height="60" Margin="0,330,0,0" VerticalAlignment="Stretch" Width="295" FontSize="36"/>
+                <Grid HorizontalAlignment="Left" Height="280" Margin="0,60,0,0" VerticalAlignment="Top" Width="295">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto" />
+                        <ColumnDefinition Width="Auto" />
+                    </Grid.ColumnDefinitions>
+                    <ListView Grid.Row="0" Grid.Column="0" Height="280" Width="230" ItemsSource="{Binding Source={StaticResource EatingsViewSource}}">
+                        <ListViewItem Content="{Binding ID}"/>
+                        <ListViewItem Content="Food3"/>
+                    </ListView>
+                    <GridView Grid.Row="0" Grid.Column="1" Height="280" Width="65">
+                        <GridViewItem HorizontalAlignment="Center" VerticalAlignment="Center">
+                            <Button Width="50" VerticalAlignment="Center" HorizontalAlignment="Center" Height="20" Content="..." FontSize="16" Margin="5,0,0,0"></Button>
+                        </GridViewItem>
+                        <GridViewItem HorizontalAlignment="Center" VerticalAlignment="Center">
+                            <Button Width="50" VerticalAlignment="Center" HorizontalAlignment="Center" Height="20" Content="..." FontSize="16" Margin="5,0,0,0"></Button>
+                        </GridViewItem>
+                        <GridViewItem HorizontalAlignment="Center" VerticalAlignment="Center">
+                            <Button Width="50" VerticalAlignment="Center" HorizontalAlignment="Center" Height="20" Content="..." FontSize="16" Margin="5,0,0,0"></Button>
+                        </GridViewItem>
+                    </GridView>
+                </Grid>
+
+
+            </Grid>
+        </Border>
+
+
+        <Border x:Name="DinnerBorder" BorderBrush="Black" BorderThickness="2" HorizontalAlignment="Left" Height="400" Margin="650,175,0,0" VerticalAlignment="Top" Width="295">
+            <Grid x:Name="DinnerGrid" HorizontalAlignment="Left" Height="400" VerticalAlignment="Top" Width="295">
+                <Border BorderBrush="Black" BorderThickness="0,0,0,2" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="0,60,0,0" Width="295">
+                </Border>
+                <TextBlock Text="Dinner" HorizontalAlignment="Left" VerticalAlignment="Top" Height="60" Width="295" TextAlignment="Center" FontSize="36" FontWeight="Bold" FontFamily="Elephant" Margin="0,5,0,0"/>
+                <Button Content="+" HorizontalAlignment="Left" Height="60" Margin="0,330,0,0" VerticalAlignment="Stretch" Width="295" FontSize="36"/>
+                <Grid HorizontalAlignment="Left" Height="280" Margin="0,60,0,0" VerticalAlignment="Top" Width="295">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto" />
+                        <ColumnDefinition Width="Auto" />
+                    </Grid.ColumnDefinitions>
+                    <ListView Grid.Row="0" Grid.Column="0" Height="280" Width="230">
+                        <ListViewItem Content="Food1"/>
+                        <ListViewItem Content="Food2"/>
+                        <ListViewItem Content="Food3"/>
+                    </ListView>
+                    <GridView Grid.Row="0" Grid.Column="1" Height="280" Width="65">
+                        <GridViewItem HorizontalAlignment="Center" VerticalAlignment="Center">
+                            <Button Width="50" VerticalAlignment="Center" HorizontalAlignment="Center" Height="20" Content="..." FontSize="16" Margin="5,0,0,0"></Button>
+                        </GridViewItem>
+                        <GridViewItem HorizontalAlignment="Center" VerticalAlignment="Center">
+                            <Button Width="50" VerticalAlignment="Center" HorizontalAlignment="Center" Height="20" Content="..." FontSize="16" Margin="5,0,0,0"></Button>
+                        </GridViewItem>
+                        <GridViewItem HorizontalAlignment="Center" VerticalAlignment="Center">
+                            <Button Width="50" VerticalAlignment="Center" HorizontalAlignment="Center" Height="20" Content="..." FontSize="16" Margin="5,0,0,0"></Button>
+                        </GridViewItem>
+                    </GridView>
+                </Grid>
+            </Grid>
+        </Border>
+
+        <Border x:Name="OthersBorder" BorderBrush="Black" BorderThickness="2" HorizontalAlignment="Left" Height="400" Margin="965,175,0,0" VerticalAlignment="Top" Width="295">
+            <Grid x:Name="OthersGrid" HorizontalAlignment="Left" Height="400" VerticalAlignment="Top" Width="295">
+                <Border BorderBrush="Black" BorderThickness="0,0,0,2" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="0,60,0,0" Width="295">
+
+                </Border>
+                <TextBlock Text="Others" HorizontalAlignment="Left" VerticalAlignment="Top" Height="60" Width="295" TextAlignment="Center" FontSize="36" FontWeight="Bold" FontFamily="Elephant" Margin="0,5,0,0"/>
+                <Button Content="+" HorizontalAlignment="Left" Height="60" Margin="0,330,0,0" VerticalAlignment="Stretch" Width="295" FontSize="36"/>
+                <Grid HorizontalAlignment="Left" Height="280" Margin="0,60,0,0" VerticalAlignment="Top" Width="295">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto" />
+                        <ColumnDefinition Width="Auto" />
+                    </Grid.ColumnDefinitions>
+                    <ListView Grid.Row="0" Grid.Column="0" Height="280" Width="230">
+                        <ListViewItem Content="Food1"/>
+                        <ListViewItem Content="Food2"/>
+                        <ListViewItem Content="Food3"/>
+                    </ListView>
+                    <GridView Grid.Row="0" Grid.Column="1" Height="280" Width="65">
+                        <GridViewItem HorizontalAlignment="Center" VerticalAlignment="Center">
+                            <Button Width="50" VerticalAlignment="Center" HorizontalAlignment="Center" Height="20" Content="..." FontSize="16" Margin="5,0,0,0"></Button>
+                        </GridViewItem>
+                        <GridViewItem HorizontalAlignment="Center" VerticalAlignment="Center">
+                            <Button Width="50" VerticalAlignment="Center" HorizontalAlignment="Center" Height="20" Content="..." FontSize="16" Margin="5,0,0,0"></Button>
+                        </GridViewItem>
+                        <GridViewItem HorizontalAlignment="Center" VerticalAlignment="Center">
+                            <Button Width="50" VerticalAlignment="Center" HorizontalAlignment="Center" Height="20" Content="..." FontSize="16" Margin="5,0,0,0"></Button>
+                        </GridViewItem>
+                    </GridView>
+                </Grid>
+
+
+            </Grid>
+        </Border>
+
+
+        <Button x:Name="NutritionsButton" Content="Nutritions" HorizontalAlignment="Stretch" Margin="175,0,825,45" VerticalAlignment="Bottom" FontSize="24" Height="65"/>
+        <Button x:Name="NotesButton" Content="Notes" HorizontalAlignment="Stretch" Margin="500,0,500,45" VerticalAlignment="Bottom" FontSize="24" Height="65"/>
+        <Button x:Name="CalendarButton" Content="Calendar" HorizontalAlignment="Stretch" Height="65" Margin="825,610,175,45" VerticalAlignment="Top" FontSize="24"/>
+
+    </Grid>
+</Page>

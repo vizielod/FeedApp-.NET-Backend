@@ -1,0 +1,11 @@
+C:\Work\S53O1S\IdentityLab\IdentityLab\bin\Debug\netcoreapp2.0\IdentityLab.deps.json
+C:\Work\S53O1S\IdentityLab\IdentityLab\bin\Debug\netcoreapp2.0\IdentityLab.runtimeconfig.json
+C:\Work\S53O1S\IdentityLab\IdentityLab\bin\Debug\netcoreapp2.0\IdentityLab.runtimeconfig.dev.json
+C:\Work\S53O1S\IdentityLab\IdentityLab\bin\Debug\netcoreapp2.0\IdentityLab.dll
+C:\Work\S53O1S\IdentityLab\IdentityLab\bin\Debug\netcoreapp2.0\IdentityLab.pdb
+C:\Work\S53O1S\IdentityLab\IdentityLab\obj\Debug\netcoreapp2.0\IdentityLab.csprojResolveAssemblyReference.cache
+C:\Work\S53O1S\IdentityLab\IdentityLab\obj\Debug\netcoreapp2.0\IdentityLab.csproj.CoreCompileInputs.cache
+C:\Work\S53O1S\IdentityLab\IdentityLab\obj\Debug\netcoreapp2.0\IdentityLab.AssemblyInfoInputs.cache
+C:\Work\S53O1S\IdentityLab\IdentityLab\obj\Debug\netcoreapp2.0\IdentityLab.AssemblyInfo.cs
+C:\Work\S53O1S\IdentityLab\IdentityLab\obj\Debug\netcoreapp2.0\IdentityLab.dll
+C:\Work\S53O1S\IdentityLab\IdentityLab\obj\Debug\netcoreapp2.0\IdentityLab.pdb
